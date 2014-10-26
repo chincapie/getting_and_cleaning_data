@@ -11,12 +11,12 @@ The training subjects are in the subject_train.txt file.
 The same holds for the test set.
 
 ### About the script and tidy dataset
-I created a script called run_analysis.R which will merge the test and training sets together and meet the requirements of the course project. The script does the following:
+I created a script called run_analysis.R which will merge the training and test datasets together and meet the requirements of the course project. The script does the following:
 
 1. Creates a data directory to store the extracted raw data.
 2. Downloads the data and reads data into R.
 3. After merging training and test datasets, labels are added and only variables that have to do with mean and standard deviation are kept.
-4. Finally, the script creates a tidy data set containing the average of each variable for each activity and each subject. This tidy dataset will be written to a tab-delimited file called tidy.txt, which can also be found in this repository.
+4. Finally, the script creates a tidy data set containing the average of each variable for each activity and each subject. This tidy dataset is written to a tab-delimited file called tidy.txt, which can also be found in this repository.
 
 ### About the code book
 The CodeBook.md file explains the data manipulation and cleaning performed and the resulting data and variables.
